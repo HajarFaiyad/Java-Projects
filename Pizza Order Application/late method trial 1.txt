@@ -1,0 +1,27 @@
+ /* public String LateOrNot(PizzaOrder pizzaOrder){
+        
+        String timeStatement;
+
+        if ( pizzaOrder.getDeliveryTime().getClockTime().getMinute() < pizzaOrder.getOrderTime().getClockTime().getMinute()){
+            if ( ((pizzaOrder.getDeliveryTime().getClockTime().getHour() - pizzaOrder.getOrderTime().getClockTime().getHour()) * 60 
+                - (pizzaOrder.getOrderTime().getClockTime().getMinute() - pizzaOrder.getDeliveryTime().getClockTime().getMinute())) > 60 ){
+                 timeStatement = "Late delivery";
+            }
+            else{
+                 timeStatement = "On delivery"; 
+            }
+        }
+        else{
+            if ( ((pizzaOrder.getDeliveryTime().getClockTime().getHour() - pizzaOrder.getOrderTime().getClockTime().getHour()) * 60 
+                - (pizzaOrder.getDeliveryTime().getClockTime().getMinute() - pizzaOrder.getOrderTime().getClockTime().getMinute())) > 60 ){
+                 timeStatement = "Late delivery";
+            }
+            else{
+                 timeStatement = "time delivery"; 
+            }
+
+        }
+        return timeStatement;
+    }*/
+
+
